@@ -1,6 +1,16 @@
-import { defineConfig } from 'windicss/helpers'
+const { transform } = require('windicss/helpers')
+const typography = require('windicss/plugin/typography')
 
-export default defineConfig({
- 
-  plugins: [require('daisyui')],
-})
+const colors = require('windicss/colors')
+  module.exports = {
+    extract: {
+      // accepts globs and file paths relative to project root
+      include: [
+        'index.html',
+        'src/**/*.{html,svelte}',
+      ],},
+    plugins: [
+      typography, transform('daisyui'),
+    ],
+
+  }
