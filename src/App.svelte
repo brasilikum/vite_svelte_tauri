@@ -6,7 +6,7 @@
   <div class="card-body">
     <h2 class="card-title">
       Top image
-      <div class="badge mx-2 badge-secondary">NEW</div>
+      <div class="badge mx-2 badge-secondary ">NEW</div>
     </h2>
     <p>
       Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
